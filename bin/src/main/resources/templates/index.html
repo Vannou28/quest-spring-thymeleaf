@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header th:replace="fragments/header :: header">
+<header>
     <nav>
         <span>Doctor Secret Service</span>
         <a href="/">Sign In</a>
@@ -28,7 +28,13 @@
     <li><a href="/doctor/?number=13&name=Jodie%20Whittaker">Doctor 13</a></li>
     <li><a href="/doctor/">Unknown Doctor</a></li>
 </ul>
-<footer th:replace="fragments/footer :: footer">&copy; 2016 The Static Templates</footer>
-
+<footer>
+    <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">TARDIS</a></li>
+    </ul>
+    <span>Copyright BBC/Terry Nation 1963</span>
+</footer>
 </body>
 </html>
